@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/xiaomi/lisa/device.mk)
 
 # Inherit from the AOSPA configuration.
-$(call inherit-product, vendor/atomx/target/product/aospa-target.mk)
+$(call inherit-product, vendor/atomx/target/product/atomx-target.mk)
 
 # Lawnchair
 $(call inherit-product, vendor/lawnchair/lawnchair.mk)
